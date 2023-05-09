@@ -1,0 +1,39 @@
+{
+  "name": "react-quiz-app",
+  "version": "1.0.0",
+  "description": "Simple quiz application written in React.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/john-cawley/react-quiz-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/john-cawley/react-quiz-app/issues"
+  },
+  "homepage": "https://github.com/john-cawley/react-quiz-app#readme",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.2",
+    "prettier": "^2.8.8",
+    "vite": "^4.3.5"
+  },
+  "dependencies": {
+    "eslint": "^8.40.0",
+    "eslint-config-prettier": "^8.8.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
